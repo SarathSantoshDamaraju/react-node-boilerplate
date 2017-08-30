@@ -1,0 +1,36 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "Basic Boilerplate for Node-React Apps.",
+  "main": "index.js",
+  "scripts": {
+    "build:server": "babel ./app/server -d build/server",
+    "build-watch:server": "babel ./app/server -d build/server --watch",
+    "build:client": "webpack --config ./webpack.config.js/",
+    "build-watch:client": "webpack --config ./webpack.config.js/ --watch",
+    "start-dev": "npm run build:server & npm run build:client && nodemon ./build/server/index.js & npm run build-watch:server & npm run build-watch:client",
+    "start-live": "node ./build/server/index.js",
+    "start": "npm run build:server  & npm run build:client && npm run start-live",
+    "start-dev:client": "webpack-dev-server"
+  },
+  "author": "sarath Damaraju",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "express": "^4.15.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^2.30.1",
+    "nodemon": "^1.11.0",
+    "parallelshell": "^3.0.1",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
