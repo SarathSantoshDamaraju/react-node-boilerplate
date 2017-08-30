@@ -4,7 +4,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     devtool: 'inline-source-map',
-    entry: ['./app/index.js'],
+    entry: ['./src/index.js'],
     output: {
         path: path.join(__dirname, 'build'),
         filename: 'bundle.js'
@@ -14,7 +14,7 @@ module.exports = {
             {
                 test: /.js$/,
                 loader: 'babel-loader',
-                include: path.join(__dirname, 'app'),
+                include: path.join(__dirname, 'src'),
                 exclude: /node_modules/,
                 query: {
                     presets: ['es2015', 'react']
@@ -24,7 +24,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: './app/public/index.html',
+            template: './src/public/index.html',
             filename: 'index.html',
             inject: 'body',
         }),
