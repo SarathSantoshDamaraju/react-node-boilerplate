@@ -1,6 +1,6 @@
 {
   "name": "twilt",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Basic Boilerplate for Node-React Apps.",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,11 @@
   },
   "author": "Sarath Damaraju",
   "license": "ISC",
+  "keywords": [
+    "ReactJs",
+    "Boilerplate",
+    "generators"
+  ],
   "dependencies": {
     "axios": "^0.16.2",
     "express": "^4.15.4",
