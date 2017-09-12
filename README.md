@@ -1,6 +1,10 @@
-# ReactJs & NodeJs boilerplate
+# Twilt -- A Basic ReactJs & NodeJs boilerplate for Beginners
 
-This is a basic boilerplate, built with react, node/express, ES6.
+A boiler Plate to save you from the pain of setting up things for a ReactJs - NodeJs App.
+
+### Folder Structure 
+
+![screen shot 2017-09-12 at 5 39 00 pm](https://user-images.githubusercontent.com/10527102/30325636-275f0038-97e3-11e7-9bf9-c61dc289d103.png)
 
 ### To Install
 
@@ -25,6 +29,7 @@ This is a basic boilerplate, built with react, node/express, ES6.
 * `nodemon` - To watch and restart file changes om server side
 * `webpack` - Helps bundling your code
 
-
+## GitHub Repo: [github.com/SarathSantoshDamaraju/react-node-boilerplate](url)
+Please raise any issue in the Above mentioned Repo
 
 
