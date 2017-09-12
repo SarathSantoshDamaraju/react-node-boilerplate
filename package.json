@@ -1,5 +1,5 @@
 {
-  "name": "twilt",
+  "name": "generator-twilt",
   "version": "1.0.2",
   "description": "Basic Boilerplate for Node-React Apps.",
   "main": "index.js",
@@ -17,7 +17,8 @@
   "keywords": [
     "ReactJs",
     "Boilerplate",
-    "generators"
+    "generators",
+    "yeoman-generator"
   ],
   "dependencies": {
     "axios": "^0.16.2",
