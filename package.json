@@ -1,6 +1,6 @@
 {
   "name": "twilt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Basic Boilerplate for Node-React Apps.",
   "main": "index.js",
   "scripts": {
