@@ -10,9 +10,9 @@ This is a basic boilerplate, built with react, node/express, ES6.
 
 * `npm run start-dev` - This will do Transpiling, Building and running the server. It will watch for the changes and repeat the process.
 
-### prod
+### In Production
 
-* `npm run start` -  This will do Transpiling, Building and running the server.
+* `npm run start` -  This will do Transpiling, Building and running the server. Well you dont have to worry about this. Most of the servers will take care of this.
 
 
 ### NPM Packages Used
@@ -23,7 +23,7 @@ This is a basic boilerplate, built with react, node/express, ES6.
 * `react-dom` - React package for working with the DOM.
 * `babel-*` - Babel is a JavaScript compiler. And its related packages
 * `nodemon` - To watch and restart file changes om server side
-* `webpack` - Helps bundiling your code
+* `webpack` - Helps bundling your code
 
 
 
