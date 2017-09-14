@@ -8,6 +8,8 @@ A boiler Plate to save you from the pain of setting up things for a ReactJs - No
 
 ### To Install
 
+* Clone or download 
+
 * `npm i` - install dependencies
 
 ### To Run Developer Environment
