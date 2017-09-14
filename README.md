@@ -1,6 +1,7 @@
 # Twilt -- A Basic ReactJs & NodeJs boilerplate for Beginners
 
 A boiler Plate to save you from the pain of setting up things for a ReactJs - NodeJs App.
+Find the **Yeoman** Generator for this boilerplate [here](https://github.com/SarathSantoshDamaraju/generator-mern)
 
 ### Folder Structure 
 
@@ -31,7 +32,5 @@ A boiler Plate to save you from the pain of setting up things for a ReactJs - No
 * `nodemon` - To watch and restart file changes om server side
 * `webpack` - Helps bundling your code
 
-## GitHub Repo: [github.com/SarathSantoshDamaraju/react-node-boilerplate](url)
-Please raise any issue in the Above mentioned Repo
 
 
